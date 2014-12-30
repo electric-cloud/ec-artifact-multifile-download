@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <key>@PLUGIN_KEY@</key>
+    <version>@PLUGIN_VERSION@</version>
+    <label>@PLUGIN_KEY@</label>
+    <description> This is plugin is a plugin that allow user to download partial artifacts folders/files..</description>
+
+    <!-- If the plugin has a configure page, declare it here.  This will show up as a Configure link for this plugin on the Plugins page. 
+    <configure>configure.xml</configure>
+    -->
+    
+    <!-- If the plugin has a help page, declare it here.  This will show up as a Help link for this plugin on the Plugins page. -->
+    <help>help.xml</help>
+    
+    <!-- Plugin author information. -->
+    <author>PS</author>
+    <authorUrl/>
+    
+    <commander-version min="3.6"/>
+    
+    <!-- Specify a category for this plugin; this is used in filtered lists in the Plugin Manager.
+         Typically, it is set to System or Step.
+     -->
+    <category>System</category>
+    <components>
+        <component name="ArtifactMultifileDownload">
+        	<javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/smartGWTinit.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_Core.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_Foundation.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_Containers.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_Grids.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_Forms.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_RichTextEditor.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_Calendar.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/modules/ISC_DataBinding.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/sc/skins/Enterprise/load_skin.js</javascript>
+            <javascript>war/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload/ecplugins.ArtifactMultifileDownload.ArtifactMultifileDownload.nocache.js</javascript>
+        </component>
+    </components>
+</plugin>

@@ -1,0 +1,11 @@
+<componentContainer>
+  <title>ArtifactMultifileDownload Help</title>
+  <h2>ArtifactMultifileDownload Help</h2>
+  <h3>Overview</h3>
+  <p>This plugin is a plugin that allow user to download partial artifacts folders/files.</p>
+  <p>This plugin has the following pages:</p>
+  <p>
+    <a href="ArtifactMultifileDownload_run">ArtifactMultifileDownload</a>
+  </p>
+</componentContainer>
+  
